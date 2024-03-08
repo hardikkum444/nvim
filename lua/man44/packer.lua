@@ -47,5 +47,12 @@ use {
 
 use ('vim-airline/vim-airline')
 
+--use {
+  --  'ojroques/vim-oscyank',
+  --  vim.keymap.set('n', '<leader>c', '<Plug>OSCYankOperator'),
+  --  vim.keymap.set('n', '<leader>cc', '<leader>c_', {remap = true}),
+  -- vim.keymap.set('v', '<leader>c', '<Plug>OSCYankVisual'),
+--}
+
 
   end)
