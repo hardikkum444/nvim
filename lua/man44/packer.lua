@@ -55,4 +55,12 @@ use ('vim-airline/vim-airline')
 --}
 
 
+-- use ('folke/noice.nvim')
+use ('folke/noice.nvim')
+use ('MunifTanjim/nui.nvim')
+
+use ('rcarriga/nvim-notify')
+use ('https://github.com/tpope/vim-commentary')
+
+
   end)
