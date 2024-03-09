@@ -55,7 +55,7 @@ use {
 }
 
 -- airline
-use ('vim-airline/vim-airline')
+-- use ('vim-airline/vim-airline')
 
 --use {
   --  'ojroques/vim-oscyank',
@@ -76,5 +76,10 @@ use ('rcarriga/nvim-notify')
 -- gcc for comment
 use ('https://github.com/tpope/vim-commentary')
 
+
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
 
   end)
