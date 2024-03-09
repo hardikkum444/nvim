@@ -13,27 +13,36 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- gruvobx theme
   use { "ellisonleao/gruvbox.nvim" }
+  -- solarized osaka theme
   use { "craftzdog/solarized-osaka.nvim" }
 
+  -- treesitter
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
+  -- harpoon
   use ('ThePrimeagen/harpoon')
 
+  -- fugitive
   use ('tpope/vim-fugitive')
 
+  -- coc
   use {
 	  'neoclide/coc.nvim',
 	  branch = 'release'
   }
 
+  -- coc-java
   use {
 	  'neoclide/coc-java',
 	 --branch = 'release'
   }
 
+-- nerdtree
 --  use ('preservim/nerdtree')
 
+-- neotree
 use {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
@@ -45,6 +54,7 @@ use {
     }
 }
 
+-- airline
 use ('vim-airline/vim-airline')
 
 --use {
@@ -55,11 +65,15 @@ use ('vim-airline/vim-airline')
 --}
 
 
+-- noice 
 -- use ('folke/noice.nvim')
 use ('folke/noice.nvim')
 use ('MunifTanjim/nui.nvim')
 
+-- dependeny for noice
 use ('rcarriga/nvim-notify')
+
+-- gcc for comment
 use ('https://github.com/tpope/vim-commentary')
 
 
