@@ -15,8 +15,12 @@ return require('packer').startup(function(use)
 
   -- gruvobx theme
   use { "ellisonleao/gruvbox.nvim" }
+  
   -- solarized osaka theme
   use { "craftzdog/solarized-osaka.nvim" }
+
+  -- tokyonight theme
+  use { "folke/tokyonight.nvim" }
 
   -- treesitter
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -26,18 +30,6 @@ return require('packer').startup(function(use)
 
   -- fugitive
   use ('tpope/vim-fugitive')
-
-  -- coc
-  use {
-	  'neoclide/coc.nvim',
-	  branch = 'release'
-  }
-
-  -- coc-java
-  use {
-	  'neoclide/coc-java',
-	 --branch = 'release'
-  }
 
 -- nerdtree
 --  use ('preservim/nerdtree')
