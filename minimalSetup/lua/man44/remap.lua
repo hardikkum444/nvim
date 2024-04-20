@@ -13,3 +13,6 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 -- splitting screen
 vim.keymap.set("n", "ss", ":split<Return>", opts)
 vim.keymap.set("n", "sv", ":vsplit<Return>", opts)
+
+-- HTML boilerplate
+vim.keymap.set("n","<C-k>",":!wl-copy < ~/.config/nvim/lua/man44/html.txt<CR><CR>")
