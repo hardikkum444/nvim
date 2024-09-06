@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
   -- fugitive
   use ('tpope/vim-fugitive')
 
+  use ('ThePrimeagen/vim-be-good')
 -- nerdtree
 --  use ('preservim/nerdtree')
 
@@ -90,4 +91,13 @@ use {
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 
-  end)
+
+use {
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = function()
+        require("nvim-autopairs").setup {}
+    end
+}
+
+end)
