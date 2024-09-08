@@ -1,7 +1,7 @@
 # sets the terminal color scheme and settings to nvim
 
 function TerminalToVim(color)
-    color = color or "rose-pine"
+    color = color
     vim.cmd.colorscheme(color)
 
     vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
