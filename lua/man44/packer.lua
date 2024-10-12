@@ -15,12 +15,19 @@ return require('packer').startup(function(use)
 
   -- gruvobx theme
   use { "ellisonleao/gruvbox.nvim" }
-  
+
+
   -- solarized osaka theme
   use { "craftzdog/solarized-osaka.nvim" }
 
   -- tokyonight theme
   use { "folke/tokyonight.nvim" }
+
+  -- github theme
+  use { 'projekt0n/github-nvim-theme', name = 'github-theme' }
+
+  -- -- rose-pine theme
+  -- use { "rose-pine/neovim" } 
 
   -- treesitter
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -105,5 +112,9 @@ use({'neovim/nvim-lspconfig'})
 use({'hrsh7th/nvim-cmp'})
 use({'hrsh7th/cmp-nvim-lsp'})
 use {"williamboman/mason.nvim"}
+
+use {
+    "williamboman/mason-lspconfig.nvim",
+}
 
 end)
