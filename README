@@ -1,0 +1,58 @@
+Plugins
+=======
+
+1. **Packer.nvim**
+   - Repository: `wbthomason/packer.nvim`
+
+2. **Telescope.nvim**
+   - Repository: `nvim-telescope/telescope.nvim`
+
+3. **Themes**
+   - **Gruvbox**
+     - Repository: `ellisonleao/gruvbox.nvim`
+   - **Solarized Osaka**
+     - Repository: `craftzdog/solarized-osaka.nvim`
+   - **Tokyo Night**
+     - Repository: `folke/tokyonight.nvim`
+   - **GitHub Theme**
+     - Repository: `projekt0n/github-nvim-theme`
+   - **Rose Pine**
+     - Repository: `rose-pine/neovim`
+
+4. **Treesitter**
+   - Repository: `nvim-treesitter/nvim-treesitter`
+
+5. **Other Plugins**
+   - **Harpoon**
+     - Repository: `ThePrimeagen/harpoon`
+   - **Vim Fugitive**
+     - Repository: `tpope/vim-fugitive`
+   - **Vim Be Good**
+     - Repository: `ThePrimeagen/vim-be-good`
+   - **Vim Commentary**
+     - Repository: `tpope/vim-commentary`
+     - URL: `https://github.com/tpope/vim-commentary`
+
+6. **Nvim Autopairs**
+   - Repository: `windwp/nvim-autopairs`
+
+7. **LSP Configuration**
+   - **LSP Zero**
+     - Repository: `VonHeikemen/lsp-zero.nvim`
+   - **Nvim LSP Config**
+     - Repository: `neovim/nvim-lspconfig`
+   - **Nvim CMP**
+     - Repository: `hrsh7th/nvim-cmp`
+   - **CMP Nvim LSP**
+     - Repository: `hrsh7th/cmp-nvim-lsp`
+   - **Mason**
+     - Repository: `williamboman/mason.nvim`
+   - **Mason LSP Config**
+     - Repository: `williamboman/mason-lspconfig.nvim`
+
+8. **Lualine**
+   - Repository: `nvim-lualine/lualine.nvim`
+
+9. **Neo Tree**
+   - Repository: `nvim-neo-tree/neo-tree.nvim`
+
