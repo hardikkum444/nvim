@@ -10,3 +10,4 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.scrolloff = 8
 vim.o.clipboard = "unnamedplus"
 vim.opt.cursorline = true
+vim.opt.colorcolumn = "100"
