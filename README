@@ -41,6 +41,14 @@ Nvim Autopairs
 ---------------
 Repository: `windwp/nvim-autopairs`
 
+Nvim Codesnap
+-------------
+Repository: `mistricky/codesnap.nvim`
+
+Nvim Vim-surround
+-----------------
+Repository: `tpope/vim-surround`
+
 LSP Configuration
 -----------------
 - LSP Zero

@@ -65,4 +65,8 @@ return require('packer').startup(function(use)
     }
   }
 
+  use {'mistricky/codesnap.nvim', run = 'make'}
+
+  use { 'tpope/vim-surround' }
+
 end)
