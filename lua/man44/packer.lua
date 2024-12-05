@@ -69,4 +69,8 @@ return require('packer').startup(function(use)
 
   use { 'tpope/vim-surround' }
 
+  use { 'nvim-lua/plenary.nvim' }
+
+  use { 'nvimtools/none-ls.nvim'}
+
 end)
