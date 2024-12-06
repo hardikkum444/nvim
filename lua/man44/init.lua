@@ -2,6 +2,7 @@ require("man44.remap")
 require("man44.set")
 
 -- vim.cmd[[colorscheme solarized-osaka]]
+vim.o.background = "dark"
 -- vim.cmd[[colorscheme gruvbox]]
 -- vim.cmd[[colorscheme rose-pine]]
 vim.cmd[[colorscheme tokyonight-night]]
@@ -13,3 +14,7 @@ vim.api.nvim_set_keymap('i', '<CR>', [[pumvisible() ? coc#_select_confirm() : "\
 
 -- Allowing yanking to clipboard
 vim.opt.clipboard = 'unnamedplus'
+
+-- Going block mode baby
+vim.opt.guicursor = "a:noCursor"
+
